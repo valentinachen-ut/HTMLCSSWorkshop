@@ -1,0 +1,315 @@
+<style>
+body{ background: linear-gradient(to bottom right, white, #bcbdc4);
+height:4000px;}
+a{color:white;
+text-decoration:none;}
+
+.headerx{
+position:fixed;
+width:100%;
+height:100px;
+top:0;
+left:0;
+color:white;
+z-index:7;
+font-family:verdana;
+-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+}
+
+.header{
+position:fixed;
+width:100%;
+height:100px;
+background:white;
+top:0;
+left:0;
+color:#142170;
+z-index:7;
+font-family:verdana;
+}
+
+#img1{left:100px;
+height:50px;
+width:200px;
+top:25px;
+}
+
+#form1{left:700px;
+top:20px;
+height:60px;
+width:180px;
+/*Exercise 6
+font-family:impact;*/
+}
+
+#form2{left:895px;
+top:20px;
+height:60px;
+width:200px;
+/*Exercise 6
+font-family:impact;*/
+}
+
+#button1{background:white;
+color:#000000;
+
+width:50px;
+height:22px;
+cursor:pointer;
+}
+
+#submit1{left:1100px;
+top:39px;
+height:25px;
+width:50px;
+}
+
+.bodyx{
+position:absolute;
+left:0;
+top:100px;
+width:100%;
+height:645px;
+}
+
+#intro1{top:40px;
+left:100px;
+font-family:verdana;
+font-size:30px;
+color:#142170;
+height:75px;
+width:550px;
+}
+
+#intro2{top:40px;
+left:700px;
+font-family:verdana;
+font-size:50px;
+color:#142170;
+width:500px;
+height:60px;
+}
+
+#img2{top:580px;
+left:120px;
+height:25px;
+width:175px;
+}
+
+#intro3{top:100px;
+left:700px;
+font-family:verdana;
+font-size:20px;
+color:#142170;
+height:50px;
+width:300px;
+}
+
+#namebox{width:200px;
+height:50px;
+border-radius:10px/10px;
+background:white;
+padding:10px;
+font-size:20px;
+}
+
+#form3{top:150px;
+left:700px;
+font-family:verdana;
+font-size:20px;
+color:#142170;
+width:450px;
+height:495px;
+}
+
+#mailbox{width:400px;
+height:50px;
+border-radius:10px/10px;
+background:white;
+/*Exercise 5 - replace above line with line below
+background:#cc5500;*/	
+padding:10px;
+font-size:20px;
+}
+
+#button2{width:100px;
+height:50px;
+background:green;
+color:white;
+font-size:20px;
+border-radius:15px/15px;
+cursor:pointer;
+outline:none;
+}
+
+.body1{
+position:absolute;
+left:0;
+top:750px;
+width:100%;
+height:80px;
+background:white;
+}
+
+#conclu1{width:930px;
+top:15px;
+left:200px;
+color:#bcbdc4;
+height:60px;
+}
+
+.header1{
+position:fixed;
+width:100%;
+height:60px;
+background:#142170;
+top:0;
+left:0;
+color:white;
+z-index:7;
+}
+
+#img3{left:100px;
+height:50px;
+top:5px;
+}
+
+.bodyn{top:70px;
+left:30px;
+position:absolute;
+width:200px;
+height:740px;
+font-family:verdana;
+}
+kground: #fd0;
+
+table {
+    font-family: impact;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #142170;
+    color: white;
+}
+tr:nth-child(odd) {
+    background-color: #dddddd;
+</style>
+
+
+<html>
+	<title>Sense Corp HTML/CSS Workshop
+	</title>
+	<!-- Exercise 4 - replace 2 lines above with lines below
+	<title>Texas FIGHT!
+	</title>-->
+	<head>
+		<link type="text/css" rel="stylesheet" href="ust.css" />
+	</head>
+	<body style="height:815px">
+
+		<div class="headerx">
+		</div>
+
+		<div class="header">
+			<div id="img1" class="header" />
+			<img src="https://github.com/valentinachen-ut/HTMLCSSWorkshop/blob/master/SenseCorp.png?raw=true" /></a></div>
+			<form method="post">
+			<!-- Exercise 10 - replace the above line with line below
+			<form method="post" action="Login.html">-->
+				<div id="form1" class="header">Email or Username<br>
+					<input placeholder="Email" type="mail" id="login" name="name" /><br>
+					<input type="checkbox" id="login" />Keep me logged in
+				</div>
+				<div id="form2" class="header">Password<br>
+					<input placeholder="Password" type="password" name="password"/><br>Forgotten my password!
+				</div>
+				<div id="submit1" class="header"><input type="submit" id="button1" value="Login"/>
+				</div>
+			</form>
+		</div>
+
+		<div class="bodyx">
+			<div id="intro1" class="bodyx">Sense Corp helps you connect and share<br>with people.<br><br>
+			<!-- Exercise 2
+				<img src="https://github.com/valentinachen-ut/HTMLCSSWorkshop/blob/master/comic.png?raw=true"/>-->
+			<!-- Exercise 3
+				<br><a href="https://www.sensecorp.com" style="color:#142170" target="_blank">CLICK ME!</a>-->
+			<!-- Exercise 7 
+			<a href="https://sensecorp.com" target="_blank">-->
+			<!-- Exercise 8
+				<table style="font-family:verdana; font-size:12">
+					<tr>
+						<th>Name</th>
+						<th>Title</th>
+						<th>Major</th>
+						<th>Hobby</th>
+					</tr>
+					<tr>
+						<td>Anjali Ahuja</td>
+						<td>Consultant</td>
+						<td>MIS</td>
+						<td>Sitting in broken chairs</td>
+					</tr>
+					<tr>
+						<td>Austin Anderson</td>
+						<td>Yung $avage</td>
+						<td>MIS</td>
+						<td>Puns</td>
+					</tr>
+					<tr>
+						<td>Valentina Chen</td>
+						<td>Professional Nap Taker</td>
+						<td>MIS</td>
+						<td>Video games</td>
+					</tr>
+					<tr>
+						<td>Chris Thomsen</td>
+						<td>Consultant</td>
+						<td>MIS</td>
+						<td>Soccer</td>
+					</tr>
+				</table> -->
+			<!-- Exercise 9
+				<tagname style="font-family:verdana; font-size: 20"> Blue Bell Ice Cream
+				<ol type="I" style="font-family:verdana; font-size: 14">
+					<li>Homemade Vanilla</li>
+					<li>Cookies N' Cream</li>
+					<li>Rocky Road</li>
+					<li>Mint Chocolate Chip</li>
+				</ol> -->
+			</div></br> 
+			
+			<div id="intro2" class="bodyx">Create an account</div>
+			<div id="intro3" class="bodyx">It's free!</div>
+			<div id="form3" class="bodyx">
+				<form method="post">
+					<input placeholder="First Name" type="text" id="namebox" name="name1" /><input placeholder="Last Name" type="text" id="namebox"/><br>
+					<!-- Exercise 1 - replace above line with line below
+					<input placeholder="Favorite Superhero" type="text" id="namebox" name="name1" /><input placeholder="Favorite Fruit" type="text" id="namebox"/><br>-->
+					<input placeholder="Email" type="text" id="mailbox"/><br>
+					<input placeholder="Username" type="text" id="mailbox"/><br>
+					<input placeholder="Password" type="password" id="mailbox"/><br>
+					Birthday <input type="date" id="namebox"/><br>
+					Male <input type="radio" name="gender" value="male"/> Female <input type="radio" name="gender" value="female"/><br><br>
+					By clicking Create an account, you agree to our terms.<br><br>
+					<input type="submit" id="button2" value="Signup"/>
+				</form>
+				<hr>
+				Create a page for you.
+			</div>
+				<div id="img2" class="bodyx"><img src="https://github.com/valentinachen-ut/HTMLCSSWorkshop/blob/master/SenseCorp.png?raw=true"/></div>
+		</div>
+		
+		<hr>
+
+		<div class="body1">
+			<div id="conclu1" class="body1">Learn more......</div>
+		</div>
+	</body>
+</html>
