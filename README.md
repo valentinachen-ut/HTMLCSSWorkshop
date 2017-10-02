@@ -41,8 +41,6 @@ Things you will need to install the software and how to install them.
 * Files
    *   Contains the PDF of the slide deck from the presentation and the HTML/CSS video tutorial
 
-### How to Use
-1. Down
 ## Helpful Resources/Further Research
 ### Free Online Classes
 * [Codecademy: HTML & CSS For Beginners](https://www.codecademy.com/en/tracks/htmlcss) - Real, in-time code editing guide
