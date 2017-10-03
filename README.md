@@ -38,8 +38,9 @@ Things you will need to install the software and how to install them.
    *   Contains commits for each solution to the exercises
 
 ### Folder
-* Files
-   *   Contains the PDF of the slide deck from the presentation and the HTML/CSS video tutorial
+* Presentation Materials
+   *   Contains the PDF of the slide deck from the presentation
+   *   The link to the video may be found below under "HTML/CSS Video Tutorial"
 
 ## Helpful Resources/Further Research
 ### Free Online Classes
@@ -51,3 +52,6 @@ Things you will need to install the software and how to install them.
 ### Reference Guides
 * [W3Schools](https://www.w3schools.com/)
 * [HTML Cheat Sheet](http://www.simplehtmlguide.com/cheatsheet.php)
+
+### HTML/CSS Video Tutorial
+* [HTML/CSS Video Tutorial - Short](https://vimeo.com/236657126)
